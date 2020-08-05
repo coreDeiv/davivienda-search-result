@@ -22,7 +22,7 @@ body {
   max-width: 100vw;
   height: auto;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   font-family: "Helvetica";
 }
@@ -32,7 +32,7 @@ body {
   max-width: 1200px;
   margin: auto;
   @media (max-width: 578px) {
-    width: 94%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -50,6 +50,20 @@ body {
 .filter {
 
   background: $bgc-search-result;
+
+  &-row {
+    @media (max-width: 970px) {
+      .filter-title {
+        margin: 25px auto 25px 0;
+      }
+    }
+    @media (max-width: 640px) {
+      display: block;
+      .filter-title {
+        margin: 25px auto 25px 10px;        
+      }
+    }
+  }
 
   &-dropdown {
     position: relative;
@@ -72,6 +86,12 @@ body {
       padding-bottom: 1rem;
       font-size: 2rem;
       font-weight: 100;
+      @media (max-width: 640px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 420px) {
+        font-size: 1.3rem;        
+      }
     }
   }
 
@@ -84,8 +104,7 @@ body {
     background-color: transparent;
     color: $white;
     padding: 8px 12px;
-    min-width: 160px;
-    max-width: 160px;
+    width: 160PX;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,6 +117,13 @@ body {
       width: 1px;
       style: solid;
       radius: 40px;
+    }
+    @media (max-width: 420px) {
+      margin: 5px 10px;
+    }
+    @media (max-width: 380px) {
+      width: 140PX;
+      margin: 5px;
     }
   }
 
@@ -112,6 +138,9 @@ body {
     transition: ease .5s all;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    @media (max-width: 420px) {
+      left: .750rem;      
+    }
     a {
       color: black;
       padding: 12px 16px;
