@@ -45,6 +45,23 @@ body {
   padding: 3.5rem 0;
 }
 
+.d-none {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  &-danger {
+    padding: 15px 40px;
+    color: #E8162E;
+    border: 1px solid #E8162E;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
 /* Section Filter */
 
 .filter {
@@ -177,12 +194,12 @@ body {
     margin-bottom: 1rem;
   }
 
-  h1, p, a {
+  h1, p, .btn-link {
     color: #000;
     padding-bottom: 1rem;
   }
 
-  a {
+  .btn-link {
     font-weight: bold;
     text-decoration: underline;
   }

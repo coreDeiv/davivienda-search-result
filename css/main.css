@@ -46,6 +46,24 @@ body {
   padding: 3.5rem 0;
 }
 
+.d-none {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-danger {
+  padding: 15px 40px;
+  color: #E8162E;
+  border: 1px solid #E8162E;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* Section Filter */
 .filter {
   background: #818181;
@@ -204,12 +222,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.result h1, .result p, .result a {
+.result h1, .result p, .result .btn-link {
   color: #000;
   padding-bottom: 1rem;
 }
 
-.result a {
+.result .btn-link {
   font-weight: bold;
   text-decoration: underline;
 }
