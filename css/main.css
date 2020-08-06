@@ -211,6 +211,10 @@ body {
   display: block;
 }
 
+.result {
+  background: #F8F8F8;
+}
+
 .result-box_content {
   width: 100%;
   margin: 20px 0;

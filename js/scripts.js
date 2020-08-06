@@ -1,6 +1,9 @@
 
-function dropOptions() {
-  document.getElementById("filterDropdown").classList.toggle("show");
+function dropOptionsLeft() {
+  document.getElementById("filterDropdownLeft").classList.toggle("show");
+}
+function dropOptionsRight() {
+  document.getElementById("filterDropdownRight").classList.toggle("show");
 }
 
 window.onclick = function(event) {
