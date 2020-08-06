@@ -189,6 +189,16 @@ body {
 
   background: #F8F8F8;
 
+  &-row {
+    @media (max-width: 640px) {
+      width: 94%;
+      margin: auto;
+    }
+    @media (max-width: 380px) {
+      padding: 1.5rem 0;
+    }
+  }
+
   &-box_content {
     width: 100%;
     margin: 20px 0;
