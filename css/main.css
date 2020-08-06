@@ -240,6 +240,10 @@ body {
   margin: 20px 0;
 }
 
+.result-box_content.failed {
+  min-height: 55vh;
+}
+
 .result-border {
   width: 50px;
   border: 2px solid #E8162E;
