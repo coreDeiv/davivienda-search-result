@@ -78,6 +78,7 @@ body {
 @media (max-width: 640px) {
   .filter-row {
     display: block;
+    padding: 1.5rem 0;
   }
   .filter-row .filter-title {
     margin: 25px auto 25px 10px;
@@ -93,6 +94,12 @@ body {
   color: #fff;
   font-weight: 100;
   margin-left: 1.5rem;
+}
+
+@media (max-width: 420px) {
+  .filter-select h5 {
+    margin-left: .550rem;
+  }
 }
 
 .filter-title h2, .filter-title p, .filter-title span {

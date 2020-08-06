@@ -76,6 +76,7 @@ body {
     }
     @media (max-width: 640px) {
       display: block;
+      padding: 1.5rem 0;
       .filter-title {
         margin: 25px auto 25px 10px;        
       }
@@ -92,6 +93,9 @@ body {
       color: $white;
       font-weight: 100;
       margin-left: $dropdown-spacing;
+      @media (max-width: 420px) {
+        margin-left: .550rem;
+      }
     }
   }
 
