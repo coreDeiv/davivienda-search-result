@@ -42,7 +42,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 3.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .d-none {
@@ -71,14 +71,14 @@ body {
   &-row {
     @media (max-width: 970px) {
       .filter-title {
-        margin: 25px auto 25px 0;
+        margin: 0 auto 25px 0;
       }
     }
     @media (max-width: 640px) {
       display: block;
-      padding: 1.5rem 0;
+      padding: 1rem 0;
       .filter-title {
-        margin: 25px auto 25px 10px;        
+        margin: 0 auto 25px 10px;        
       }
     }
   }

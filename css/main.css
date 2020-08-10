@@ -43,7 +43,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 3.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .d-none {
@@ -71,17 +71,17 @@ body {
 
 @media (max-width: 970px) {
   .filter-row .filter-title {
-    margin: 25px auto 25px 0;
+    margin: 0 auto 25px 0;
   }
 }
 
 @media (max-width: 640px) {
   .filter-row {
     display: block;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
   }
   .filter-row .filter-title {
-    margin: 25px auto 25px 10px;
+    margin: 0 auto 25px 10px;
   }
 }
 
